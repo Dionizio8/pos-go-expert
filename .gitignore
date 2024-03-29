@@ -1,2 +1,3 @@
 */vendor
-cotacao.txt
+client-server-api/client/cotacao.txt
+client-server-api/server/quote.db
