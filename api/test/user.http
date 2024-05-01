@@ -1,0 +1,18 @@
+POST http://localhost:8000/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "name" : "Dionizio8",
+    "email" : "gabrieldionizio@teste.com",
+    "password" : "123456"
+}
+
+###
+
+POST http://localhost:8000/users/generete-token HTTP/1.1
+Content-Type: application/json
+
+{
+    "email" : "gabrieldionizio@teste.com",
+    "password" : "123456"
+}
