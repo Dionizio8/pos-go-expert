@@ -1,4 +1,4 @@
-module github.com/Dionizio/pos-go-expert/api
+module github.com/Dionizio8/pos-go-expert/api
 
 go 1.22.1
 

@@ -3,7 +3,7 @@ package database
 import (
 	"testing"
 
-	"github.com/Dionizio/pos-go-expert/api/internal/entity"
+	"github.com/Dionizio8/pos-go-expert/api/internal/entity"
 	"github.com/stretchr/testify/assert"
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"

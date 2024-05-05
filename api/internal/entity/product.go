@@ -4,7 +4,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/Dionizio/pos-go-expert/api/pkg/entity"
+	"github.com/Dionizio8/pos-go-expert/api/pkg/entity"
 )
 
 var (

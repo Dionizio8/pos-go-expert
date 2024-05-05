@@ -1,6 +1,6 @@
 package database
 
-import "github.com/Dionizio/pos-go-expert/api/internal/entity"
+import "github.com/Dionizio8/pos-go-expert/api/internal/entity"
 
 type UserInterface interface {
 	Create(user *entity.User) error

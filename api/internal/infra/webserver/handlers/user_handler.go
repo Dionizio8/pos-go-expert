@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/Dionizio/pos-go-expert/api/internal/dto"
-	"github.com/Dionizio/pos-go-expert/api/internal/entity"
-	"github.com/Dionizio/pos-go-expert/api/internal/infra/database"
+	"github.com/Dionizio8/pos-go-expert/api/internal/dto"
+	"github.com/Dionizio8/pos-go-expert/api/internal/entity"
+	"github.com/Dionizio8/pos-go-expert/api/internal/infra/database"
 	"github.com/go-chi/jwtauth"
 )
 

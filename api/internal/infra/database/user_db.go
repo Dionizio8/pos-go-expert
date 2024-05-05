@@ -1,7 +1,7 @@
 package database
 
 import (
-	"github.com/Dionizio/pos-go-expert/api/internal/entity"
+	"github.com/Dionizio8/pos-go-expert/api/internal/entity"
 	"gorm.io/gorm"
 )
 

@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/Dionizio/pos-go-expert/api/internal/dto"
-	"github.com/Dionizio/pos-go-expert/api/internal/entity"
-	"github.com/Dionizio/pos-go-expert/api/internal/infra/database"
-	entitypkg "github.com/Dionizio/pos-go-expert/api/pkg/entity"
+	"github.com/Dionizio8/pos-go-expert/api/internal/dto"
+	"github.com/Dionizio8/pos-go-expert/api/internal/entity"
+	"github.com/Dionizio8/pos-go-expert/api/internal/infra/database"
+	entitypkg "github.com/Dionizio8/pos-go-expert/api/pkg/entity"
 	"github.com/go-chi/chi"
 )
 
