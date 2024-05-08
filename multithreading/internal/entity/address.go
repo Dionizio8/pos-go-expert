@@ -6,5 +6,4 @@ type Address struct {
 	City         string `json:"city"`
 	Neighborhood string `json:"neighborhood"`
 	Street       string `json:"street"`
-	API          string `json:"api"`
 }

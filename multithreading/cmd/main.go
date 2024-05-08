@@ -8,6 +8,7 @@ import (
 	"io"
 	"net/http"
 	"os"
+	"regexp"
 	"time"
 
 	"github.com/Dionizio8/pos-go-expert/multithreading/configs"
@@ -36,7 +37,17 @@ func main() {
 	responseViaCep := make(chan *CMDResponseAddress)
 	errorHandler := make(chan error, 2)
 
+	if len(os.Args) < 2 {
+		println("cep not found")
+		return
+	}
+
 	cep := os.Args[1]
+	math, _ := regexp.MatchString("[0-9]{8}$", cep)
+	if !math {
+		println("Not valid cep")
+		return
+	}
 
 	go getAddress(BRASILAPI, config.APIURLBrasilApi, cep, responseBrasilApi, errorHandler)
 	go getAddress(VIACEP, config.APIURLViacep, cep, responseViaCep, errorHandler)

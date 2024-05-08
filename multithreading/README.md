@@ -29,6 +29,20 @@ cd multithreading/cmd
 go run main.go
 ```
 
+3. responsta exemplo
+```json
+{
+    "address": {
+        "cep": "04094-050",
+        "state": "SP",
+        "city": "São Paulo",
+        "neighborhood": "Parque Ibirapuera",
+        "street": "Avenida Pedro Álvares Cabral"
+    },
+    "api": "via_cep",
+    "created_at": "2024-05-07T22:41:53.652256-03:00"
+}
+
 ## Error GOPATH
 
 Como o projeto tem varios exemplos e dependendo de como esta configurado o GO ou editor em sua maquina recomendo abrir o projeto diretamente na pasta **multithreading**. 
@@ -48,8 +62,22 @@ code .
 cd cmd
 ```
 
-4. executar o arquivo **main.go**
+4. executar o arquivo **main.go** com o CEP (apenas numeros)
 ```bash
-go run main.go
+go run main.go 04094050
 ```
 
+5. responsta exemplo
+```json
+{
+    "address": {
+        "cep": "04094-050",
+        "state": "SP",
+        "city": "São Paulo",
+        "neighborhood": "Parque Ibirapuera",
+        "street": "Avenida Pedro Álvares Cabral"
+    },
+    "api": "via_cep",
+    "created_at": "2024-05-07T22:41:53.652256-03:00"
+}
+```
