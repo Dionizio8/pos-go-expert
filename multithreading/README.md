@@ -29,7 +29,7 @@ cd multithreading/cmd
 go run main.go
 ```
 
-3. responsta exemplo
+3. resposta
 ```json
 {
     "address": {
@@ -42,6 +42,7 @@ go run main.go
     "api": "via_cep",
     "created_at": "2024-05-07T22:41:53.652256-03:00"
 }
+````
 
 ## Error GOPATH
 
@@ -67,7 +68,7 @@ cd cmd
 go run main.go 04094050
 ```
 
-5. responsta exemplo
+5. resposta
 ```json
 {
     "address": {
